@@ -15,6 +15,12 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void on_pushBtn_Copy_clicked();
+
+private:
+    void init_copyFW_components();
+
 private:
     Ui::MainWindow *ui;
 };
